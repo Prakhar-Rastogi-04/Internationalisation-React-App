@@ -15,6 +15,7 @@ function App() {
     <I18Provider locale={locale}> 
       <div className="App">
         <header className="App-header">
+          <h4>Available on my GITHUB Repo</h4>
           <h4>
               <select  onChange={langChange}>
                 <option value={LOCALES.ENGLISH}>English</option>
