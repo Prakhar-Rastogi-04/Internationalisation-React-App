@@ -1,11 +1,14 @@
 pipeline {
     agent any
 
+    tools {nodejs "node" }
+
     stages {
         stage('Build') {
             steps {
                 echo 'Build Stage'
                 bat 'npm install'
+                bat 'npm run build'
             }
         }
         stage('Deploy') {
