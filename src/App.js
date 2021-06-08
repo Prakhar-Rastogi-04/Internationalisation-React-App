@@ -15,6 +15,7 @@ function App() {
     <I18Provider locale={locale}> 
       <div className="App">
         <header className="App-header">
+          <h2>This app is also demonstarting CI/CD</h2>
           <h4>
               <select  onChange={langChange}>
                 <option value={LOCALES.ENGLISH}>English</option>
